@@ -1,6 +1,7 @@
 name: Deploy on PyPI
 on:
-  tags: true
+  release:
+    types: [published]
   
 jobs:
   build:
