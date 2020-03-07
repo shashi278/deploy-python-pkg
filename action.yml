@@ -6,7 +6,7 @@ inputs:
   USERNAME:
     description: "PyPI Username"
     required: false
-    default: __token__
+    default: "__token__"
     
   TOKEN:
     description: "PyPI API token"
