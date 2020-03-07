@@ -1,0 +1,13 @@
+name: Deploy on PyPI
+on:
+  tags: true
+  
+jobs:
+  build:
+    name: Deployment Action
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./
+        with:
+          TOKEN: "pypi-AgEIcHlwaS5vcmcCJDJlNmM1NzUzLTYyZWEtNDg3YS1iMGZhLTkzNzI2NWJlNjM1YwACJXsicGVybWlzc2lvbnMiOiAidXNlciIsICJ2ZXJzaW9uIjogMX0AAAYgcXbq9BC1CZQdwjaEJMHbmXC2zVnYMV1Qi1wi3tfNIkM"
