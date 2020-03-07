@@ -15,8 +15,8 @@ RUN apk update \
   && apk del .build-deps
 
 
-COPY entrypoint.sh
+COPY entrypoint.sh .
 
 RUN chmod +x entrypoint.sh
 
-ENTRYPOINT ["entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
