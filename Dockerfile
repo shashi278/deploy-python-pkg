@@ -2,7 +2,7 @@
 FROM python:3.7-alpine
 LABEL maintainer.name="Shashi Ranjan" \
       maintainer.email="shashiranjankv@gmail.com" \
-      repository.ulr="https://github.com/shashi278/deploy-python-pkg"
+      repository.url="https://github.com/shashi278/deploy-python-pkg"
       
 RUN apk update && apk --no-cache add gnupg bash
 RUN apk update \
