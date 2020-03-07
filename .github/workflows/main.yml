@@ -21,4 +21,4 @@ jobs:
       - name: Deploy to PyPI
         uses: ./
         with:
-          TOKEN: "pypi-AgEIcHlwaS5vcmcCJDJlNmM1NzUzLTYyZWEtNDg3YS1iMGZhLTkzNzI2NWJlNjM1YwACJXsicGVybWlzc2lvbnMiOiAidXNlciIsICJ2ZXJzaW9uIjogMX0AAAYgcXbq9BC1CZQdwjaEJMHbmXC2zVnYMV1Qi1wi3tfNIkM"
+          TOKEN: pypi-AgEIcHlwaS5vcmcCJGE0YzM4MzE1LWM1MWUtNDc0Ny1iMGJhLWM0YjA0Y2QyYmUxNAACJXsicGVybWlzc2lvbnMiOiAidXNlciIsICJ2ZXJzaW9uIjogMX0AAAYghynmMQuTGhqaNUL3Z5LTv_spC2uF3Ysg7r9IWGuEldI
