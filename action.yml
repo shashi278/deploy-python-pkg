@@ -1,17 +1,21 @@
-name: "Hello Actions"
-description: "First action to greet someone"
+name: "Deploy-Py-Packages"
+description: "Easily deploy your python packages to PyPI"
 author: "https://github.com/shashi278"
 
 inputs:
-  MY_NAME:
-    description: "Who to greet"
+  USERNAME:
+    description: "PyPI Username"
+    required: false
+    default: "__token__"
+    
+  TOKEN:
+    description: "PyPI API token"
     required: true
-    default: "World"
 
 runs:
   using: "docker"
   image: "Dockerfile"
 
 branding:
-  icon: "mic"
+  icon: "upload"
   color: "purple"
