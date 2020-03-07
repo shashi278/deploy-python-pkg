@@ -16,5 +16,5 @@ jobs:
       - name: Deploy to PyPI
               uses: ./
               with:
-                TOKEN: "Your PyPI password or token"
+                TOKEN: "Your PyPI password or API Token"
 ```
