@@ -11,10 +11,6 @@ RUN apk update \
   && pip install -U --no-cache-dir twine \
   && apk del .build-deps
 
-
-
 COPY entrypoint.sh .
-
 RUN chmod +x entrypoint.sh
-
 ENTRYPOINT ["/entrypoint.sh"]
