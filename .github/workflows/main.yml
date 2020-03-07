@@ -21,4 +21,5 @@ jobs:
       - name: Deploy to PyPI
         uses: ./
         with:
-          TOKEN: "pypi-AgEIcHlwaS5vcmcCJDhjMjU0YmRkLTQxZDktNGU4Ni1hOTBlLTMyNDY3NTMwNzhjNwACJXsicGVybWlzc2lvbnMiOiAidXNlciIsICJ2ZXJzaW9uIjogMX0AAAYggb_TpJtDsNvz0HGlJYB2Ua6lPIOpCR9kVyVUWQGKL6c"
+          USERNAME: "watney"
+          TOKEN: "Shashi@0243"
