@@ -1,4 +1,4 @@
-# deploy-python-pkg
+# deploy-python-pkg  [![Snap Status](https://build.snapcraft.io/badge/shashi278/deploy-python-pkg.svg)](https://build.snapcraft.io/user/shashi278/deploy-python-pkg)
 Easily deploy your python packages to PyPI
 
 ### Intallation
