@@ -1,0 +1,15 @@
+
+  name: deploy-python-pkg
+  version: '0.1'
+  summary: Easily deploy python packages on pypi
+  description: |
+    This snap makes it easier to deploy your python packages on PyPI.
+
+  grade: stable # must be 'stable' to release into candidate/stable channels
+  confinement: devmode # use 'strict' once you have the right plugs and slots
+
+  parts:
+    my-part:
+      # See 'snapcraft plugins'
+      plugin: nil
+  
